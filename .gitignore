@@ -1,2 +1,24 @@
+# Build outputs
+build/
 *.exe
-*.txt
+*.out
+*.o
+*.obj
+*.class
+*.pdb
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor logs and operating system files
+.vscode/*.log
+.DS_Store
+Thumbs.db
+
+# Local secrets
+.env
+.env.*
+!.env.example
